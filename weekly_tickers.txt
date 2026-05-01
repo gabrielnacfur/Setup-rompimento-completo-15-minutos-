@@ -1,0 +1,24 @@
+# Tickers para monitorar — Rompimento Semanal
+# UM POR LINHA, # para comentar
+
+AIZ
+AMD
+AME
+AVGO
+COF
+EIX
+ETN
+FICO
+FISV
+FIX
+HON
+MA
+PLD
+PWR
+SHOP
+SYF
+SYK
+TER
+TMO
+TT
+

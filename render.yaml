@@ -1,0 +1,16 @@
+services:
+  - type: web
+    name: weekly-breakout
+    runtime: python
+    plan: free
+    buildCommand: pip install -r requirements.txt
+    startCommand: gunicorn app:app --timeout 120 --workers 1
+    envVars:
+      - key: TELEGRAM_BOT_TOKEN
+        sync: false
+      - key: TELEGRAM_CHAT_ID
+        sync: false
+      - key: N_WEEKS
+        value: "2"
+      - key: WEBHOOK_SECRET
+        sync: false
